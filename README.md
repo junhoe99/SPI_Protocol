@@ -107,7 +107,8 @@ SO_IDLE ──[so_start=1]──> SO_PHASE ──[bit_cnt=7]──> SO_IDLE
 - Metastability 발생 가능 → 데이터 손실/오류
 
 **해결책: 2-Stage Synchronizer + Edge Detector**
-<img width="8308" height="1800" alt="image" src="https://github.com/user-attachments/assets/981950f7-6b84-4dca-a348-fa75b94b57b9" />
+<img width="8292" height="1716" alt="image" src="https://github.com/user-attachments/assets/963570f9-6b83-42d6-8943-ababacb11d40" />
+
 
 ```systemverilog
 // Synchronizer
