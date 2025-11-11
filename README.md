@@ -110,7 +110,7 @@ SO_IDLE ──[so_start=1]──> SO_PHASE ──[bit_cnt=7]──> SO_IDLE
 <img width="8308" height="1800" alt="image" src="https://github.com/user-attachments/assets/981950f7-6b84-4dca-a348-fa75b94b57b9" />
 
 ```systemverilog
-// SCLK 동기화
+// Synchronizer
 always_ff @(posedge clk or posedge reset) begin
     if (reset) begin
         sclk_sync0 <= 1'b0;
