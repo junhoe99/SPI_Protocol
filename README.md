@@ -1,6 +1,24 @@
 # 📡 SPI (Serial Peripheral Interface) Protocol Implementation
 
-## 1️⃣ Protocol Overview
+## 1️⃣ SPI Protocol Overview
+
+### 📊 Block Diagram
+
+<img width="2292" height="2508" alt="image" src="https://github.com/user-attachments/assets/7820acea-3486-47a1-8984-a050c6f19e7f" />
+
+### 🔄 Finite State Machine
+
+**ASM:**
+<img width="4772" height="4184" alt="image" src="https://github.com/user-attachments/assets/bb4cd94a-59de-4cb8-9dc7-e6d232748a59" />
+
+
+### ⏱️ Timing Diagram - Mode 0 (CPOL=0, CPHA=0 기준)
+
+<img width="2808" height="1296" alt="image" src="https://github.com/user-attachments/assets/09bd93cd-e91d-457e-ad35-55b641fdfb28" />
+
+
+---
+
 
 ### 🔌 Protocol Characteristics
 | Property | Description |
@@ -29,20 +47,6 @@
 
 ## 2️⃣ System Architecture
 
-### 📊 Block Diagram
-
-<img width="2292" height="2508" alt="image" src="https://github.com/user-attachments/assets/7820acea-3486-47a1-8984-a050c6f19e7f" />
-
-
----
-
-## 3️⃣ FSM & Timing Diagram
-
-### 🔄 Finite State Machine
-
-**ASM:**
-<img width="4772" height="4184" alt="image" src="https://github.com/user-attachments/assets/bb4cd94a-59de-4cb8-9dc7-e6d232748a59" />
-
 
 | State | Operation | Timing | Next Condition |
 |-------|-----------|--------|----------------|
@@ -65,9 +69,6 @@ SO_IDLE ──[so_start=1]──> SO_PHASE ──[bit_cnt=7]──> SO_IDLE
                              └──┘ (sclk_falling_edge)
 ```
 
-### ⏱️ Timing Diagram - Mode 0 (CPOL=0, CPHA=0 기)
-
-<img width="2808" height="1296" alt="image" src="https://github.com/user-attachments/assets/09bd93cd-e91d-457e-ad35-55b641fdfb28" />
 
 
 ### 📝 SPI Mode Comparison
