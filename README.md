@@ -6,9 +6,8 @@
 
 <img width="2292" height="2508" alt="image" src="https://github.com/user-attachments/assets/7820acea-3486-47a1-8984-a050c6f19e7f" />
 
-### 🔄 Finite State Machine
+### 🔄 ASM Chart
 
-**ASM:**
 <img width="4772" height="4184" alt="image" src="https://github.com/user-attachments/assets/bb4cd94a-59de-4cb8-9dc7-e6d232748a59" />
 
 
