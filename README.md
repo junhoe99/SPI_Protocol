@@ -1,19 +1,32 @@
-# 📡 SPI (Serial Peripheral Interface) Protocol Implementation
+# SPI_Protocol
+
+## **1. Overview**
+> Verilog를 이용한 SPI(Serial Peripheral Interface) protocol 설계
+
+## **2. System Spec**
+   - **Block Diagram**
+     <img width="2292" height="2508" alt="image" src="https://github.com/user-attachments/assets/7820acea-3486-47a1-8984-a050c6f19e7f" />
+
+   - **ASM, Timing Diagram**
+     <img width="4772" height="4184" alt="image" src="https://github.com/user-attachments/assets/bb4cd94a-59de-4cb8-9dc7-e6d232748a59" />
+     <img width="2808" height="1296" alt="image" src="https://github.com/user-attachments/assets/09bd93cd-e91d-457e-ad35-55b641fdfb28" />
+
+
 
 ## 1️⃣ SPI Protocol Overview
 
 ### 📊 Block Diagram
 
-<img width="2292" height="2508" alt="image" src="https://github.com/user-attachments/assets/7820acea-3486-47a1-8984-a050c6f19e7f" />
+
 
 ### 🔄 ASM Chart
 
-<img width="4772" height="4184" alt="image" src="https://github.com/user-attachments/assets/bb4cd94a-59de-4cb8-9dc7-e6d232748a59" />
+
 
 
 ### ⏱️ Timing Diagram - Mode 0 (CPOL=0, CPHA=0 기준)
 
-<img width="2808" height="1296" alt="image" src="https://github.com/user-attachments/assets/09bd93cd-e91d-457e-ad35-55b641fdfb28" />
+
 
 
 ---
